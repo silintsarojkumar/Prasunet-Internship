@@ -1,0 +1,211 @@
+
+
+body{
+    background-color: #dcdde1;
+    margin: 0px;
+    background-image: url(https://cdn.pixabay.com/animation/2023/08/10/06/24/06-24-17-858_512.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: 20px;
+    
+    
+  
+    
+}
+
+header{
+    width: 100%;
+    display:flex ;
+    height: 10vh;
+    border-bottom: 3px solid black;
+    background-color: white;
+    position:sticky;
+    align-items: center;
+    justify-content: space-around;
+    top: 0; 
+    left: 0; 
+    
+    
+}
+img{
+    height: 50px;
+    padding-left: -50px;
+}
+
+.nev-button{
+    cursor: pointer;
+    margin-left: 4px;
+    background-color:white;
+    border: none;
+    font-size: 15px;
+   
+}
+.nev-button:hover{
+    background-color: #718093;
+    border-top: 4px solid #7f8fa6;
+}
+hr{
+    border: 1px solid black;
+    width: 100%;
+    
+}
+#Stopwatch{
+    display: grid;
+    
+    
+    
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+.stopwatch-text{
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#display{
+   
+   
+    border-radius: 5px;
+    display: flex;
+    font-size: 100px;
+    justify-self: flex-start;
+    margin-left: 60px;
+    
+    
+    
+}
+.timer{
+    width: 40px;
+    height: 40px;
+    margin: 0px;
+    margin-left: 4px;
+}
+.button{
+    margin: 9px;
+    height: 40px;
+    width: 90px;
+    border: 3px solid black;
+    border-radius: 50px;
+    cursor: pointer;
+    
+    
+}
+.keys{
+    margin-top: 3px;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    
+
+   
+    
+}
+.start{
+    background-color: green;
+}
+.paus{
+    background-color: red;
+}
+.stop{
+    background-color: yellow;
+}
+@media screen and (max-width: 480px) {
+    body{
+        background-color: #dcdde1;
+        margin: 0px;
+    }
+    header{
+        width: 100%;
+        height: 20%;
+    }
+    .button{
+        margin: 9px;
+        height: 50px;
+        width: 60px;
+        border: 3px solid black;
+        border-radius: 50px;
+        cursor: pointer;
+        font-size: 15px;
+    }
+    .logo{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+       
+        
+    }
+    img{
+        height: 30px;
+        
+    }
+    .links{
+        width: 50%;
+        display: flex;
+        justify-content: center;
+        
+    }
+    .nev-button{
+        cursor: pointer;
+        margin-left: 4px;
+
+        background-color:white;
+        border: none;
+        font-size: 10px;
+       
+    }
+    .stopwatch-text{
+        margin-left: 60px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    #Stopwatch{
+        display: grid;
+        
+        
+        width: 100%;
+        height: 100%;
+    }
+    #display{
+   
+   
+        border-radius: 5px;
+        display: flex;
+        font-size: 60px;
+        justify-self: flex-start;
+        margin-left: 30px;
+        
+        
+        
+    }
+    .timer{
+        width: 40px;
+        height: 40px;
+        margin: 0px;
+        margin-left: 4px;
+    }
+   
+    .keys{
+        margin-top: 3px;
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        
+    
+       
+        
+    }
+    .start{
+        background-color: green;
+    }
+    .paus{
+        background-color: red;
+    }
+    .stop{
+        background-color: yellow;
+    }
+    
+    
+}
+

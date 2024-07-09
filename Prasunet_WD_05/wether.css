@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins,monospace;
+}
+body{
+    background-image: url(https://getwallpapers.com/wallpaper/full/6/a/9/1173035-cold-weather-wallpaper-1920x1200-1080p.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    backdrop-filter: blur(10px);
+    overflow: hidden;
+    
+}
+
+header{
+    text-align: center;
+    background-color: #5372f066;
+    width: 100%;
+    font-size: 30px;
+}
+.container{
+    display: flex;
+    gap: 35px;
+    width: 100%;
+    height: 100vh;
+    padding: 30px 30px;
+}
+
+.wether-input input{
+   
+    height: 40px;
+    margin: 10px 0 20px 0;
+    outline: none;
+    padding: 0 15px;
+    font-size: 1.7rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+.wether-input button{
+    
+    width:100%;
+    padding: 10px 0;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1.7rem;
+    border-radius: 5px;
+    background: #5372f096;
+}
+.sepration{
+    margin: 25px 0;
+    height: 1px;
+    width: 100%;
+    background: #bbb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.sepration::before {
+    content: "";
+    color: #6c757d00;
+    font-size: 1.18rem;
+    padding: 0 15px;
+    margin-top: -4px;
+    background: #e3f2fd00;
+}
+.wether-input .location-btn{
+    background: #6c757d;
+}
+.weather-data{
+    width: 100%;
+    
+}
+.current-wether{
+    background: #5372f077;
+    margin-top: 18px;
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    border-radius: 5px;
+    color: #fff;
+    justify-content: space-between;
+    width: 100%;
+    height: 40vh;
+    
+}
+
+.details h3{
+    width: 100%;
+    font-size: 2rem;
+    padding-bottom: 30px;
+}
+.details h6{
+    font-size: 1rem;
+    padding-top: 20px;
+}
+.icon{
+    padding-top: 30px;
+}
+.icon h6{
+    width: 100%;
+    font-size: 1rem;
+    padding-right: 30px;
+}
+
+.weather-data {
+    
+    margin-top: 12px;
+    font-weight: 500;
+}
+.current-wether .icon img{
+    max-width: 120px;
+    margin-top: -15px;
+}
+.current-wether .icon h6{
+    margin-top: -10px;
+    text-transform: capitalize;
+}
+.days-forecast h2{
+    font-size: 2.5rem;
+    margin: 20px 0;
+
+}
+.wether-cards{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    
+    
+}
+.card{
+    background: #6c757d;
+    list-style: none;
+    color: #fff;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 5px;
+    text-align: center;
+    width: 170px;
+    
+    
+    
+}
+.card h5{
+    padding-left: 10px;
+    padding-right: 10px;
+    
+    width: 100%;
+    font-size: 1.2rem;
+    
+}
+.card h6{
+    font-size: 1rem;
+}
+
+.card img{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.wether-cards .card img{
+    max-width: 70px;
+    margin: 5px 0 -12px 0;
+}
+
+
+
+@media (max-width:900px){
+    .wether-input input{
+        width: 100%;
+    }
+    header{
+        font-size: 1.5rem;
+    }
+    .container{
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+    body{
+        background-image: url(https://cdn6.f-cdn.com/contestentries/329593/14489232/569add2d8d3cb_thumb900.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        backdrop-filter: blur(10px);
+        background-attachment: fixed;
+        height: 100%;
+        overflow: visible;
+    }
+    .current-wether{
+        margin-top: 10px;
+        height: 20vh;
+        
+    }
+    .wether-input h3{
+        font-size: 1.5rem;
+    }
+    .details h3{
+        width: 100%;
+        font-size: 1rem;
+        padding-bottom: 15px;
+    }
+    .details h6{
+        font-size: .8rem;
+        padding-top: 10px;
+    }
+    .icon h6{
+        width: 100%;
+        font-size: .8rem;
+        padding-right: 15px;
+    }
+    .days-forecast h2{
+        font-size: 1.8rem;
+        margin: 10px 0;
+    
+    }
+    .wether-cards{
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+    .card{
+        width: 150px; 
+         
+    }
+    .card h5{
+        padding-left: 10px;
+        padding-right: 10px;
+        font-size: 1rem;
+        
+    }
+    .card h6{
+        font-size: .8rem;
+    }
+
+    
+}
